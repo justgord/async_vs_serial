@@ -1,4 +1,4 @@
-    # async_vs_serial    
+    async_vs_serial    
 
     Simple Node.js program to compare async default processing with serialised processing
 
@@ -8,9 +8,9 @@
     Handy for database processing where sequence needs to be preserved
     Simple enough to illustrate the async nature of Node.js
 
-    ##Sample output :
+    Sample output :
 
-    ###Default run
+    Default run
 
         > time ./async_vs_serial.js async
 
@@ -26,7 +26,7 @@
         user    0m0.090s
         sys 0m0.012s
 
-    ###Serial run
+    Serial run
 
         > time ./async_vs_serial.js serial
 
@@ -43,4 +43,4 @@
         sys 0m0.011s
 
     
-    ###blog : quantblog.wordpress.com         
+    blog : quantblog.wordpress.com         
